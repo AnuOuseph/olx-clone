@@ -1,0 +1,43 @@
+.main-section{
+    margin: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.border-section{
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sub-section{
+    border: 1px solid #999;
+    margin-bottom: 3px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.sub-section input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #999;
+    outline: none;
+    border-radius: 5px;
+}
+.form-btn{
+    width: 80px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #999;
+    font-weight: 600;
+}
+.main-heading{
+    margin-bottom: 20px;
+    text-align: center;
+}
+@media only screen and (max-width: 700px) {
+    .border-section{
+        width: 350px;
+    }
+  }
