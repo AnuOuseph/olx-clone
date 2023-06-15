@@ -1,12 +1,19 @@
 .view-main{
-    margin-top: 100px;
+    margin-top: 10em;
     margin-bottom: 100px;
+    background-color: #eff1f3;
+}
+.full-page{
+    background-color: #eff1f3;
 }
 .large-image{
     width: 600px;
 }
 .small-image{
     width: 80px;
+}
+.right-section-view{
+    background-color: #eff1f3;
 }
 .large-image-holder{
     width: 800px;
@@ -16,6 +23,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .left-section-view{
     margin: auto;
     display: flex;
@@ -43,10 +51,12 @@
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
+    background-color: #fff;
 }
 .view-right-bottom{
     padding: 20px;
     border-radius: 5px;
+    background-color: #fff;
 }
 .view-user-img{
     width: 60px;
@@ -71,6 +81,7 @@
 }
 .view-sub-content{
     border-radius: 8px;
+    background-color: #fff;
 }
 .view-brand p{
     padding-right: 80px;

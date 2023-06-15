@@ -1,8 +1,9 @@
 .card{
     width: 16vw;
     margin-top: 20px;
-    /* margin-left: 10px;
-    margin-right: 10px; */
+}
+.card-title{
+    overflow: hidden;
 }
 .border{
     padding: 10px;
@@ -23,6 +24,8 @@
 }
 .card-img-top{
     padding: 10px;
+    width: 250px;
+    height: 150px;
 }
 .details{
     font-size: 12px;

@@ -12,6 +12,9 @@
     text-align: center;
     border: 1px solid #111;
 }
+.border-form input{
+    padding-left: 20px;
+}
 .logo{
     margin-top: 30px;
     margin-bottom: 20px;
@@ -20,6 +23,9 @@
     font-size: 20px;
     line-height: 23px;
     margin-bottom: 20px;
+}
+.heading h4{
+    overflow: hidden;
 }
 .email{
     height: 50px;
@@ -58,4 +64,8 @@
     line-height: 13px;
     color: #002f34;
     opacity: 0.6;
+    overflow: hidden;
+}
+.last-text p{
+    overflow: hidden;
 }

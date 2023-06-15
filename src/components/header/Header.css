@@ -1,11 +1,13 @@
-.header{
-    padding: 10px;
+.header-page{
     background-color: #eff1f3;
     position: fixed;
     width: 100vw;
+    height: 90px;
     z-index: 999;
+    overflow: hidden;
+    box-shadow:  -2px 2px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.1)
 }
-.row{
+.header-list{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -14,6 +16,7 @@
 .logo{
     margin-left:10px;
     margin-right: 10px;
+    cursor: pointer;
 }
 .search{
     margin-left:10px;
@@ -49,6 +52,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
   }
   .search-input .input {
     width: 100%;
@@ -107,12 +111,21 @@
     margin-left:10px;
     margin-right: 10px;
     align-items: center;
+    cursor: pointer;
   }
   
   .login-btn hr {
     margin: 0;
     background-color: black;
     height: 2px;
+  }
+  .logout-btn{
+    margin-left:10px;
+    margin-right: 10px;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
   }
   
   .login a{
